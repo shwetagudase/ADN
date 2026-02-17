@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ADN\\ADN\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {}
+    "C:\\ADN\\ADN\\lab\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {}
   },
   "projects": {
-    "C:\\ADN\\ADN\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
+    "C:\\ADN\\ADN\\lab\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ADN\\ADN\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+        "projectUniqueName": "C:\\ADN\\ADN\\lab\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "C:\\ADN\\ADN\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+        "projectPath": "C:\\ADN\\ADN\\lab\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
         "packagesPath": "C:\\Users\\DeLL\\.nuget\\packages\\",
-        "outputPath": "C:\\ADN\\ADN\\HelloWorld\\HelloWorld\\obj\\",
+        "outputPath": "C:\\ADN\\ADN\\lab\\HelloWorld\\HelloWorld\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

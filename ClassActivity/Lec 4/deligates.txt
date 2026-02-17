@@ -1,0 +1,25 @@
+ deligate:  it stores address of method and function
+ types of deligates :
+1) single cast  //public deligate name
+2) multi cast   //public deligate return name
+use:
+It is used in event handling Programs
+multiple line of code then performance low then delegates is used.
+
+--------------EVENT HANDLING :--------------
+It is notification mechanism in c#.
+button does not know who will handle the click just button raises click 
+event allows the object to communicate with each other by sending the signals when something interesting oocurs
+
+diff betn Delegate and Event:
+Delegate
+can called directly
+less safety
+methods reference
+
+Event 
+can not be called outside the class
+more safety
+methods reference,notification mechanism
+ event Demo Event myEvent();//Wrong syntax
+ event Demo Delegate myEvent();//correct syntax 
