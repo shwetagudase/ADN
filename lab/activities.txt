@@ -1,0 +1,7 @@
+------------ADN-------------------
+activities:
+multi-cast deligate example
+replace methods with lambda expressions
+sort list using lambda expression
+where we use deligates and lambda expressions in industries or companies
+What is LINQ queries
