@@ -27,39 +27,39 @@
 //    }
 //}
 
-//class Car1
-//{
-//    string color2;
-//    string model;
-//    int year;
-
-//    static void Main(string[] args)
-//    {
-//        Car1 Kia = new Car1();
-//        Kia.color2 = "Black";
-//        Kia.model = "new";
-//        Kia.year = 2024;
-//        Car1 suzuki = new Car1();
-//        suzuki.color2 = "white";
-//        suzuki.model = "old";
-//        suzuki.year = 2023;
-//        Console.WriteLine(Kia.model);
-//        Console.WriteLine(suzuki.color2);
-
-//    }
-//}
-
-class Car
+class Car1
 {
-    public string model;
+    string color2;
+    string model;
+    int year;
 
-    public Car()
-    {
-        model = "KIA";
-    }
     static void Main(string[] args)
     {
-        Car Ford = new Car();
-        Console.WriteLine(Ford.model);
+        Car1 Kia = new Car1();
+        Kia.color2 = "Black";
+        Kia.model = "new";
+        Kia.year = 2024;
+        Car1 suzuki = new Car1();
+        suzuki.color2 = "white";
+        suzuki.model = "old";
+        suzuki.year = 2023;
+        Console.WriteLine(Kia.model);
+        Console.WriteLine(suzuki.color2);
+
     }
 }
+
+//    class Car
+//{
+//    public string model;
+
+//    public Car()
+//    {
+//        model = "KIA";
+//    }
+//    static void Main(string[] args)
+//    {
+//        Car Ford = new Car();
+//        Console.WriteLine(Ford.model);
+//    }
+//}

@@ -1,33 +1,33 @@
 ﻿// -------activity 1 ----- 
 // multicast deligate example
-//using System;
-//using System.Diagnostics;
-//class Program
-//{
-//    delegate void myDelegate();
+using System;
+using System.Diagnostics;
+class Program
+{
+    delegate void myDelegate();
 
-//  static void MethodA()
-//    {
-//        Console.WriteLine("Method A calling");
-//    }
-//    static void MethodB()
-//    {
-//        Console.WriteLine("Method B calling");
-//    }
-//    static void MethodC()
-//    {
-//        Console.WriteLine("Method  C calling");
-//    }
-//    static void Main()
-//    {
-//        myDelegate del = MethodA;
+    static void MethodA()
+    {
+        Console.WriteLine("Method A calling");
+    }
+    static void MethodB()
+    {
+        Console.WriteLine("Method B calling");
+    }
+    static void MethodC()
+    {
+        Console.WriteLine("Method  C calling");
+    }
+    static void Main()
+    {
+        myDelegate del = MethodA;
 
-//        del += MethodB;
-//        del += MethodC;
+        del += MethodB;
+        del += MethodC;
 
-//        del();
-//    }
-//}
+        del();
+    }
+}
 
 //----------------activity 2-------
 //replace methods with lambda expressions
@@ -37,7 +37,7 @@
 //    delegate void MyDelegate();
 //    static void Main()
 //    {
-//        MyDelegate del=() => Console.WriteLine("Lamda A Executed");
+//        MyDelegate del = () => Console.WriteLine("Lamda A Executed");
 //        del += () => Console.WriteLine("Lamda B Executed");
 //        del += () => Console.WriteLine("Lamda C Executed");
 
@@ -49,29 +49,29 @@
 
 //------activity 3---------------
 // sort list using lambda expression
-using System;
-using System.Collections.Generic;
+//using System;
+//using System.Collections.Generic;
 
-class Student { 
-    public String Name {  get; set; }
-    public int Marks { get; set; }
-}
-class Program
-{
-    static void Main()
-    {
-        List<Student> students = new List<Student>
-        {
-            new Student { Name = "Shweta", Marks = 88 },
-            new Student { Name = "Kishori", Marks = 87 }
-        };
-        students.Sort((s1, s2) => s1.Marks.CompareTo(s2.Marks));
+//class Student { 
+//    public String Name {  get; set; }
+//    public int Marks { get; set; }
+//}
+//class Program
+//{
+//    static void Main()
+//    {
+//        List<Student> students = new List<Student>
+//        {
+//            new Student { Name = "Shweta", Marks = 88 },
+//            new Student { Name = "Kishori", Marks = 87 }
+//        };
+//        students.Sort((s1, s2) => s1.Marks.CompareTo(s2.Marks));
 
-        foreach (var s in students)
-            Console.WriteLine($"{s.Name} -{s.Marks}" );
+//        foreach (var s in students)
+//            Console.WriteLine($"{s.Name} -{s.Marks}" );
 
-    }
-}
+//    }
+//}
 
 // -------activity 4-----
 //where we use deligates and lambda expressions in industries or companies

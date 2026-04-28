@@ -56,7 +56,7 @@ class PaymentProcessor
         }
         else
         {
-            throw new NotSupportedException("Payment type not supported");
+            Console.WriteLine("Payment type not supported");
         }
     }
 }
@@ -66,7 +66,7 @@ class exp3
     static void Main(string[] args)
     {
         PaymentProcessor processor = new PaymentProcessor();
-        processor.ProcessPayment("Credit Card");
+        processor.ProcessPayment("CreditCard");
         processor.ProcessPayment("cash");
     }
 }

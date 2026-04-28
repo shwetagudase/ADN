@@ -43,15 +43,17 @@ namespace HelloWorld
             //int age = Console.ReadLine();
             //Console.WriteLine("Your age : " + age);
 
-            //int a = 5;
-            //int b = 3;
-            //Console.WriteLine(a + b);
-            //Console.WriteLine(a - b);
-            //Console.WriteLine(a * b);
-            //Console.WriteLine(a % b);
-            //Console.WriteLine(a / b);
-            //Console.WriteLine(a++);
-            //Console.WriteLine(b--);
+            int a = 5;
+            int b = 3;
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine("addition :" +(a + b));
+            Console.WriteLine("Substraction :"+(a - b));
+            Console.WriteLine("multiplication :"+(a * b));
+            Console.WriteLine("Modulus :"+(a % b));
+            Console.WriteLine("divide: "+(a / b));
+            //Console.WriteLine("increment:"+ a++);
+            //Console.WriteLine("decrement : " + b--);
             //Math.Max(10, 5);
             //Console.WriteLine(Math.Max(10, 5));
             //Console.WriteLine(Math.Min(10, 5));
